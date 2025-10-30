@@ -132,3 +132,20 @@ h4{
     width: 100px;
     margin-right: 200px;
 }
+.destacado {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+#amenazasoluciones{
+    font-weight: bold;
+    font-size: 18px;
+}
+ul {
+  list-style: none; 
+}
+
+
+
