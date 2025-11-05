@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+header {
+    font-weight: bold;
+}
+
+section {
+    background-color: beige;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
