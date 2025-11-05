@@ -1,21 +1,28 @@
 body{
     font-family: sans-serif;
     font-weight: lighter;
+    margin: 3%;
+    background-color: lightgray;
 }
 header {
     font-weight: bold;
 }
 
-section {
-    background-color: beige;
-}
+
 
 img {
     width: 33%;
     height: auto;
     filter: saturate(0);
+    height: 200px;
 }
 
 a:hover img {
     filter: saturate(1);
+}
+img{
+
+    object-fit: cover;
+    border-radius: 20px;
+
 }
