@@ -6,23 +6,26 @@ body{
 }
 header {
     font-weight: bold;
+    font-size: 20px;
 }
 
-
+h2{
+    text-decoration: underline;
+    font-size: 20px;
+}
 
 img {
-    width: 33%;
+    width: 30%;
     height: auto;
     filter: saturate(0);
-    height: 200px;
+    height: 300px;
+    margin: 1%;
 }
 
 a:hover img {
     filter: saturate(1);
 }
 img{
-
     object-fit: cover;
     border-radius: 20px;
-
 }
