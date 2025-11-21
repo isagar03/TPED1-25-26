@@ -3,6 +3,7 @@ body{
     font-weight: lighter;
     margin: 3%;
     background-color: lightgray;
+    text-align: center;
 }
 header {
     font-weight: bold;
@@ -15,17 +16,59 @@ h2{
 }
 
 img {
-    width: 30%;
-    height: auto;
+    width: 25%;
     filter: saturate(0);
     height: 300px;
-    margin: 1%;
+    margin: 8px;
+    display: inline;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 a:hover img {
     filter: saturate(1);
+    transform: scale(1.05);
 }
-img{
+
+.ampliacion{
+    position: relative;
+    display: inline-block;
+    width: 25%;
     object-fit: cover;
+    height: 300px;
     border-radius: 20px;
+}
+.ampliacion img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.contenedor{
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 20px;
+    transition: .6s ease;
+    opacity: 0;
+
+}
+.muestratitulo{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.ampliacion:hover .contenedor{
+    opacity: 1;
+}
+.planetas{
+    display: block;
+    padding: 10px;
 }
