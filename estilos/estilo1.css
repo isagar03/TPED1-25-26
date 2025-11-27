@@ -1,4 +1,14 @@
 body{
     font-size: 17px;
     background-color: aliceblue;
+    font-family: sans-serif;
+    margin: 60px;
+}
+p{
+    font-family: sans-serif;
+    color: blueviolet;
+    font-size: 20px;
+}
+a:hover{
+    color: darkslategrey;
 }
