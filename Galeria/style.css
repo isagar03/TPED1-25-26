@@ -4,6 +4,10 @@ body{
     margin: 3%;
     background-color: lightgray;
     text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
 }
 header {
     font-weight: bold;
@@ -71,4 +75,10 @@ a:hover img {
 .planetas{
     display: block;
     padding: 10px;
+}
+
+.imgsubpaginas{
+    width: 75%;
+    height: 75%;
+    filter: none;
 }
