@@ -12,3 +12,7 @@ p{
 a:hover{
     color: darkslategrey;
 }
+.enlaces{
+    display: flex;
+    justify-content: space-around;
+}

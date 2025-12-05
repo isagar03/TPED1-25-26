@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(249, 241, 255);
+    margin: 20%;
+}
+.catalogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width: 90%;
+}
+#spacegrotesk{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+#sciencegothic{
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+#playwrite{
+    font-family: "Playwrite NO", cursive;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+#bebas{
+    font-family: "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+#pacifico{
+    font-family: "Pacifico", cursive;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+#alfa{
+    font-family: "Alfa Slab One", serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+#shadows{
+    font-family: "Shadows Into Light", cursive;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+#m1plus{
+    font-family: "M PLUS 1p", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+#momo{
+    font-family: "Momo Trust Display", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+body{
+    margin: 3px;
+}
+h1{
+    font-size: 30px;
+    font-family:"Space Grotesk", sans-serif;
+    color: #be98e1;
+    margin: 20px;
+    margin-top: 50px;
+}
+h2{
+    color: #501f85;
+    margin: 10px;
+}
+p{
+    color: antiquewhite;
+}
+.divgeneral{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+    background-color: #be98e1;
+    padding: 10px;
+    border-radius: 20px;
+}
