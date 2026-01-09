@@ -1,0 +1,18 @@
+.container {
+    background-color: aqua;
+}
+body {
+    background-color: lightgreen;
+}
+p{
+    background-color: yellow;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+
+
+}
+.rojo {
+    color: red;
+    background-color: pink;
+}
