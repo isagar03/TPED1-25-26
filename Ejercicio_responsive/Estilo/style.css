@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(247, 247, 234);
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: inline-block;
+}
+h1 {
+    text-align: left;
+    font-size: 35px;
+    color: rgb(240, 199, 19);
+}
+.menu {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: rgb(240, 199, 19);
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+.main {
+  display: flex;
+  width: 60%;
+  padding: 0 20px;
+  
+  align-items: center;
+}
+h2{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.right {
+  background-color: rgb(240, 199, 19);
+  float: right;
+  width: 50%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer{
+  background-color: rgb(240, 199, 19);
+  text-align: center;
+  height: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  }
+  .contenedor{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+@media  (min-width: 390px) {
+  .right {
+    color: white;
+    
+  }
+  h1 {
+    color: black;
+  }
+}
+@media  (min-width: 844px) {
+  .right {
+    color: black;
+  }
+  h1 {
+    color: black;
+  }
+}
+@media  (min-width: 820px) {
+  .footer{
+    background-color: black;
+    color: rgb(240, 199, 19);
+  }
+  .contenedor{
+    flex-direction: row;
+  }
+  h1 {
+    color: rgb(240, 199, 19);
+  }
+
+}
+@media  (min-width: 1180px) {
+  .main {
+    color: rgb(240, 199, 19);
+  }
+}
+@media  (min-width: 1440px) {
+  .right {
+    color: white;
+  }
+}
+@media  (min-width: 1980px) {
+  h1 {
+    color: black;
+  }
+}
+
+
+
