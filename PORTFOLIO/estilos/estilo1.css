@@ -1,0 +1,72 @@
+body {
+    background-color: whitesmoke
+}
+
+#demo{
+    height: 500px ;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    object-fit: contain;
+}
+.carrusel{
+    height: 500px;
+    object-fit:cover;
+    object-position: center;
+
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.texto1{
+    font-family: 'Yesteryear', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.texto1{
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    
+}
+.img-fluid{
+    filter: saturate(0%);
+}
+.img-fluid:hover{
+    filter: none
+}
+.titulo{
+    font-family: 'Yesteryear', cursive;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+.textofoto{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    margin-top: 0px;
+    margin-right: 50px;
+}
+.titular{
+    font-family: 'Yesteryear', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.nofilter .img-fluid{
+    filter: none;
+}
+.yo{
+    
+    height: 40vw;
+    object-fit: cover;
+    object-position: center;
+}
